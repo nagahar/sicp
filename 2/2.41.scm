@@ -1,0 +1,27 @@
+(triple-sum 10 5)
+(make-triple 5)
+(define (triple-sum s n)
+  (filter (lambda (pair)
+	    (= s (+ (car pair) (cadr pair) (caddr pair))))
+	  (make-triple n)))
+(define (make-triple n)
+  (flatmap (lambda (i)
+             (flatmap (lambda (j)
+                        (map (lambda (k) (list i j k))
+                             (enumerate-interval 1 (- j 1))))
+                      (enumerate-interval 1 (- i 1))))
+           (enumerate-interval 1 n)))
+(define (make-triple n)
+  (flatmap
+   (lambda (i)
+     (map (lambda (j) (append j (list i)))
+	  (map sort
+	       (make-pair (- i 1)))))
+   (enumerate-interval 1 n)))
+(define (make-pair n)
+  (flatmap
+   (lambda (i)
+     (map (lambda (j) (list i j))
+	  (enumerate-interval 1 (- i 1))))
+   (enumerate-interval 1 n)))
+

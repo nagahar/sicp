@@ -1,0 +1,7 @@
+(define (pascal row num)
+  (cond ((> num row) 0)
+	((= num 0) 0)
+	((= row 1) 1)
+	((> row 1)
+	 (+ (pascal (- row 1) (- num 1)) (pascal (- row 1) num)))))
+(pascal 5 3)

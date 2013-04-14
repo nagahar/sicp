@@ -1,0 +1,10 @@
+(equal? '(this is a list) '(this is a list))
+(equal? '(this is a list) '(this (is a) list))
+
+(define (equal? a b)
+  (cond ((eq? a b) #t)
+	((and (pair? a) (pair? b))
+	 (if (equal? (car a) (car b))
+	     (equal? (cdr a) (cdr b))
+	     #f))
+	(else #f)))

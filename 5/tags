@@ -1,0 +1,290 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+adjoin-arg	5.25.scm	/^(define (adjoin-arg arg arglist)$/;"	d
+allocate-register	5.11.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.12.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.13.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.14.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.15.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.16.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.17.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.18.scm	/^      (define (allocate-register name)$/;"	d
+allocate-register	5.19.scm	/^      (define (allocate-register name)$/;"	d
+analyze	5.12.scm	/^    (define (analyze insts)$/;"	d
+analyze	5.12.scm	/^(define (analyze insts labels machine)$/;"	d
+append!-machine	5.22.scm	/^(define append!-machine$/;"	d
+append-machine	5.22.scm	/^(define append-machine$/;"	d
+apply-in-underlying-scheme	5.25.scm	/^(define apply-in-underlying-scheme apply)$/;"	d
+assemble	5.12.scm	/^(define (assemble controller-text machine)$/;"	d
+bound?	5.30.scm	/^(define (bound? var)$/;"	d
+calc-it	5.14.scm	/^(define (calc-it machine in-value in-register out-register)$/;"	d
+calc-it	5.15.scm	/^(define (calc-it machine in-value in-register out-register)$/;"	d
+cancel-all-breakpoint	5.19.scm	/^      (define (cancel-all-breakpoint)$/;"	d
+cancel-all-breakpoint	5.19.scm	/^(define (cancel-all-breakpoint machine)$/;"	d
+cancel-breakpoint	5.19.scm	/^      (define (cancel-breakpoint label n)$/;"	d
+cancel-breakpoint	5.19.scm	/^(define (cancel-breakpoint machine label n)$/;"	d
+compile	5.38.scm	/^(define (compile exp target linkage)$/;"	d
+compile	5.40.scm	/^(define (compile exp target linkage ct-env)$/;"	d
+compile	5.42.scm	/^(define (compile exp target linkage ct-env)$/;"	d
+compile	5.44.scm	/^(define (compile exp target linkage ct-env)$/;"	d
+compile-and-run	5.48.scm	/^(define (compile-and-run expression)$/;"	d
+compile-application	5.40.scm	/^(define (compile-application exp target linkage ct-env)$/;"	d
+compile-application	5.42.scm	/^(define (compile-application exp target linkage ct-env)$/;"	d
+compile-application	5.44.scm	/^(define (compile-application exp target linkage ct-env)$/;"	d
+compile-assingment	5.40.scm	/^(define (compile-assingment exp target linkage ct-env)$/;"	d
+compile-assingment	5.42.scm	/^(define (compile-assingment exp target linkage ct-env)$/;"	d
+compile-assingment	5.44.scm	/^(define (compile-assingment exp target linkage ct-env)$/;"	d
+compile-definition	5.40.scm	/^(define (compile-definition exp target linkage ct-env)$/;"	d
+compile-definition	5.42.scm	/^(define (compile-definition exp target linkage ct-env)$/;"	d
+compile-definition	5.44.scm	/^(define (compile-definition exp target linkage ct-env)$/;"	d
+compile-if	5.40.scm	/^(define (compile-if exp target linkage ct-env)$/;"	d
+compile-if	5.42.scm	/^(define (compile-if exp target linkage ct-env)$/;"	d
+compile-if	5.44.scm	/^(define (compile-if exp target linkage ct-env)$/;"	d
+compile-lambda	5.40.scm	/^(define (compile-lambda exp target linkage ct-env)$/;"	d
+compile-lambda	5.42.scm	/^(define (compile-lambda exp target linkage ct-env)$/;"	d
+compile-lambda	5.44.scm	/^(define (compile-lambda exp target linkage ct-env)$/;"	d
+compile-lambda-body	5.40.scm	/^(define (compile-lambda-body exp proc-entry ct-env)$/;"	d
+compile-lambda-body	5.42.scm	/^(define (compile-lambda-body exp proc-entry ct-env)$/;"	d
+compile-lambda-body	5.43.scm	/^(define (compile-lambda-body exp proc-entry)$/;"	d
+compile-lambda-body	5.44.scm	/^(define (compile-lambda-body exp proc-entry ct-env)$/;"	d
+compile-open-code	5.38.scm	/^(define (compile-open-code exp target linkage)$/;"	d
+compile-open-code	5.44.scm	/^(define (compile-open-code exp target linkage ct-env)$/;"	d
+compile-procedure-call	5.47.scm	/^(define (compile-procedure-call target linkage)$/;"	d
+compile-quoted	5.40.scm	/^(define (compile-quoted exp target linkage ct-env)$/;"	d
+compile-quoted	5.42.scm	/^(define (compile-quoted exp target linkage ct-env)$/;"	d
+compile-quoted	5.44.scm	/^(define (compile-quoted exp target linkage ct-env)$/;"	d
+compile-self-evaluating	5.40.scm	/^(define (compile-self-evaluating exp target linkage ct-env)$/;"	d
+compile-self-evaluating	5.42.scm	/^(define (compile-self-evaluating exp target linkage ct-env)$/;"	d
+compile-self-evaluating	5.44.scm	/^(define (compile-self-evaluating exp target linkage ct-env)$/;"	d
+compile-sequence	5.40.scm	/^(define (compile-sequence seq target linkage ct-env)$/;"	d
+compile-sequence	5.42.scm	/^(define (compile-sequence seq target linkage ct-env)$/;"	d
+compile-sequence	5.44.scm	/^(define (compile-sequence seq target linkage ct-env)$/;"	d
+compile-variable	5.40.scm	/^(define (compile-variable exp target linkage ct-env)$/;"	d
+compile-variable	5.42.scm	/^(define (compile-variable exp target linkage ct-env)$/;"	d
+compile-variable	5.44.scm	/^(define (compile-variable exp target linkage ct-env)$/;"	d
+compound-proc-appl	5.47.scm	/^(define (compound-proc-appl target linkage)$/;"	d
+construct-arglist	5.36.scm	/^(define (construct-arglist operand-codes)$/;"	d
+count-leaves-machine-a	5.21.scm	/^(define count-leaves-machine-a$/;"	d
+count-leaves-machine-b	5.21.scm	/^(define count-leaves-machine-b$/;"	d
+ct	5.40.scm	/^(define ct the-empty-environment)$/;"	d
+ct	5.42.scm	/^(define ct the-empty-environment)$/;"	d
+dispatch	5.11.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.11.scm	/^    (define (dispatch message)$/;"	d
+dispatch	5.12.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.12.scm	/^    (define (dispatch message)$/;"	d
+dispatch	5.13.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.14.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.14.scm	/^    (define (dispatch message)$/;"	d
+dispatch	5.15.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.16.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.17.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.18.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.18.scm	/^    (define (dispatch message)$/;"	d
+dispatch	5.19.scm	/^      (define (dispatch message)$/;"	d
+dispatch	5.19.scm	/^    (define (dispatch message)$/;"	d
+eceval	5.23.scm	/^(define eceval$/;"	d
+eceval	5.24.scm	/^(define eceval$/;"	d
+eceval	5.25.scm	/^(define eceval$/;"	d
+eceval	5.26.scm	/^(define eceval$/;"	d
+eceval	5.27.scm	/^(define eceval$/;"	d
+eceval	5.28.scm	/^(define eceval$/;"	d
+eceval	5.29.scm	/^(define eceval$/;"	d
+eceval	5.30.scm	/^(define eceval$/;"	d
+eceval	5.32.scm	/^(define eceval$/;"	d
+eceval	5.47.scm	/^(define eceval$/;"	d
+eceval-operations	5.23.scm	/^(define eceval-operations$/;"	d
+eceval-operations	5.24.scm	/^(define eceval-operations$/;"	d
+eceval-operations	5.25.scm	/^(define eceval-operations$/;"	d
+eceval-operations	5.28.scm	/^(define eceval-operations$/;"	d
+eceval-operations	5.30.scm	/^(define eceval-operations$/;"	d
+eceval-operations	5.32.scm	/^(define eceval-operations$/;"	d
+empty-arglist	5.25.scm	/^(define (empty-arglist) '())$/;"	d
+env-loop	5.30.scm	/^  (define (env-loop env)$/;"	d
+env-loop	5.41.scm	/^  (define (env-loop env f-num)$/;"	d
+env-loop	5.42.scm	/^  (define (env-loop env f-num)$/;"	d
+env-loop	5.44.scm	/^  (define (env-loop env f-num)$/;"	d
+eval-in-underlying-scheme	5.25.scm	/^(define eval-in-underlying-scheme eval)$/;"	d
+execute	5.11.scm	/^      (define (execute)$/;"	d
+execute	5.12.scm	/^      (define (execute)$/;"	d
+execute	5.13.scm	/^      (define (execute)$/;"	d
+execute	5.14.scm	/^      (define (execute)$/;"	d
+execute	5.15.scm	/^      (define (execute)$/;"	d
+execute	5.16.scm	/^      (define (execute)$/;"	d
+execute	5.17.scm	/^      (define (execute)$/;"	d
+execute	5.18.scm	/^      (define (execute)$/;"	d
+execute	5.19.scm	/^      (define (execute)$/;"	d
+expt	5.4.scm	/^(define (expt b n)$/;"	d
+expt	5.7.scm	/^(define (expt b n)$/;"	d
+expt-i-machine	5.7.scm	/^(define expt-i-machine$/;"	d
+expt-iter	5.4.scm	/^  (define (expt-iter counter product)$/;"	d
+expt-iter	5.7.scm	/^  (define (expt-iter counter product)$/;"	d
+expt-machine	5.7.scm	/^(define expt-machine$/;"	d
+extend-environment-ct	5.40.scm	/^(define (extend-environment-ct vars ct-env)$/;"	d
+extend-environment-ct	5.42.scm	/^(define (extend-environment-ct vars ct-env)$/;"	d
+extend-environment-ct	5.44.scm	/^(define (extend-environment-ct vars ct-env)$/;"	d
+extract-labels	5.17.scm	/^(define (extract-labels text receive)$/;"	d
+extract-labels	5.18.scm	/^(define (extract-labels text receive)$/;"	d
+extract-labels	5.19.scm	/^(define (extract-labels text receive)$/;"	d
+extract-labels	5.8.scm	/^(define (extract-labels text receive)$/;"	d
+fact-iter	5.14.scm	/^  (define (fact-iter m)$/;"	d
+fact-iter	5.15.scm	/^  (define (fact-iter m)$/;"	d
+fact-iter	5.16.scm	/^  (define (fact-iter m)$/;"	d
+fact-iter	5.17.scm	/^  (define (fact-iter m)$/;"	d
+fact-iter	5.18.scm	/^  (define (fact-iter m)$/;"	d
+fact-machine	5.14.scm	/^(define fact-machine$/;"	d
+fact-machine	5.15.scm	/^(define fact-machine$/;"	d
+fact-machine	5.16.scm	/^(define fact-machine$/;"	d
+fact-machine	5.17.scm	/^(define fact-machine$/;"	d
+fact-machine	5.18.scm	/^(define fact-machine$/;"	d
+fact-machine	5.19.scm	/^(define fact-machine$/;"	d
+fact-to	5.14.scm	/^(define (fact-to n)$/;"	d
+fact-to	5.15.scm	/^(define (fact-to n)$/;"	d
+fact-to	5.16.scm	/^(define (fact-to n)$/;"	d
+fact-to	5.17.scm	/^(define (fact-to n)$/;"	d
+fact-to	5.18.scm	/^(define (fact-to n)$/;"	d
+factorial	5.1.scm	/^(define (factorial n)$/;"	d
+factorial	5.19.scm	/^(define (factorial n)$/;"	d
+factorial	5.5.scm	/^(define (factorial n)$/;"	d
+fib	5.5.scm	/^(define (fib n)$/;"	d
+fib-machine	5.12.scm	/^(define fib-machine$/;"	d
+fib-machine	5.13.scm	/^(define fib-machine$/;"	d
+fib-machine	5.46.scm	/^(define fib-machine$/;"	d
+find-variable	5.41.scm	/^(define (find-variable var ct-env)$/;"	d
+find-variable	5.42.scm	/^(define (find-variable var ct-env)$/;"	d
+find-variable	5.44.scm	/^(define (find-variable var ct-env)$/;"	d
+get-displacement-number	5.39.scm	/^(define (get-displacement-number address) (cadr address))$/;"	d
+get-displacement-number	5.40.scm	/^(define (get-displacement-number address) (cadr address))$/;"	d
+get-displacement-number	5.41.scm	/^(define (get-displacement-number address) (cadr address))$/;"	d
+get-displacement-number	5.42.scm	/^(define (get-displacement-number address) (cadr address))$/;"	d
+get-displacement-number	5.44.scm	/^(define (get-displacement-number address) (cadr address))$/;"	d
+get-frame-number	5.39.scm	/^(define (get-frame-number address) (car address))$/;"	d
+get-frame-number	5.40.scm	/^(define (get-frame-number address) (car address))$/;"	d
+get-frame-number	5.41.scm	/^(define (get-frame-number address) (car address))$/;"	d
+get-frame-number	5.42.scm	/^(define (get-frame-number address) (car address))$/;"	d
+get-frame-number	5.44.scm	/^(define (get-frame-number address) (car address))$/;"	d
+get-global-environment	5.25.scm	/^(define (get-global-environment)$/;"	d
+get-stack	5.11.scm	/^(define (get-stack stack name)$/;"	d
+good-enough?	5.3.scm	/^  (define (good-enough? guess)$/;"	d
+improve	5.3.scm	/^  (define (improve guess)$/;"	d
+initialize	5.11.scm	/^    (define (initialize)$/;"	d
+initialize	5.14.scm	/^    (define (initialize)$/;"	d
+iter	5.1.scm	/^  (define (iter product counter)$/;"	d
+iter	5.34.scm	/^       (define (iter product counter)$/;"	d
+label-test	5.8.scm	/^(define label-test$/;"	d
+last-operand?	5.25.scm	/^(define (last-operand? ops)$/;"	d
+let-variable	5.43.scm	/^    (define (let-variable def) (list (cadr def) ''*unassigned*))$/;"	d
+lexical-address-lookup	5.40.scm	/^(define (lexical-address-lookup address env)$/;"	d
+lexical-address-lookup	5.42.scm	/^(define (lexical-address-lookup address env)$/;"	d
+lexical-address-lookup	5.44.scm	/^(define (lexical-address-lookup address env)$/;"	d
+lexical-address-set!	5.39.scm	/^(define (lexical-address-set! address val env)$/;"	d
+lexical-address-set!	5.40.scm	/^(define (lexical-address-set! address val env)$/;"	d
+lexical-address-set!	5.42.scm	/^(define (lexical-address-set! address val env)$/;"	d
+lexical-address-set!	5.44.scm	/^(define (lexical-address-set! address val env)$/;"	d
+lookup-register	5.11.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.12.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.13.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.14.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.15.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.16.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.17.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.18.scm	/^      (define (lookup-register name)$/;"	d
+lookup-register	5.19.scm	/^      (define (lookup-register name)$/;"	d
+lookup-variable-value	5.30.scm	/^(define (lookup-variable-value var env)$/;"	d
+make-analyzer	5.12.scm	/^(define (make-analyzer)$/;"	d
+make-execution-procedure	5.17.scm	/^(define (make-execution-procedure inst labels machine$/;"	d
+make-execution-procedure	5.18.scm	/^(define (make-execution-procedure inst labels machine$/;"	d
+make-execution-procedure	5.19.scm	/^(define (make-execution-procedure inst labels machine$/;"	d
+make-label	5.17.scm	/^(define (make-label pc)$/;"	d
+make-label	5.18.scm	/^(define (make-label pc)$/;"	d
+make-label-inst	5.19.scm	/^(define (make-label-inst pc)$/;"	d
+make-lexical-address	5.39.scm	/^(define (make-lexical-address frame displacement)$/;"	d
+make-lexical-address	5.40.scm	/^(define (make-lexical-address frame displacement)$/;"	d
+make-lexical-address	5.41.scm	/^(define (make-lexical-address frame displacement)$/;"	d
+make-lexical-address	5.42.scm	/^(define (make-lexical-address frame displacement)$/;"	d
+make-lexical-address	5.44.scm	/^(define (make-lexical-address frame displacement)$/;"	d
+make-machine	5.13.scm	/^(define (make-machine ops controller-text)$/;"	d
+make-new-machine	5.11.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.12.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.13.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.14.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.15.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.16.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.17.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.18.scm	/^(define (make-new-machine)$/;"	d
+make-new-machine	5.19.scm	/^(define (make-new-machine)$/;"	d
+make-operation-exp	5.25.scm	/^(define (make-operation-exp exp machine labels operations)$/;"	d
+make-operation-exp	5.9.scm	/^(define (make-operation-exp exp machine labels operations)$/;"	d
+make-register	5.18.scm	/^(define (make-register name)$/;"	d
+make-register	5.19.scm	/^(define (make-register name)$/;"	d
+make-restore	5.11.scm	/^(define (make-restore inst machine stack pc)$/;"	d
+make-save	5.11.scm	/^(define (make-save inst machine stack pc)$/;"	d
+make-stack	5.11.scm	/^(define (make-stack name)$/;"	d
+make-stack	5.14.scm	/^(define (make-stack)$/;"	d
+no-more-exps?	5.28.scm	/^(define (no-more-exps? seq) (null? seq))$/;"	d
+open-coding-primitive?	5.38.scm	/^(define (open-coding-primitive? exp)$/;"	d
+open-coding-primitive?	5.44.scm	/^(define (open-coding-primitive? exp ct-env)$/;"	d
+pop	5.11.scm	/^    (define (pop)$/;"	d
+pop	5.11.scm	/^(define (pop stack name)$/;"	d
+pop	5.14.scm	/^    (define (pop)$/;"	d
+preserving	5.37.scm	/^(define (preserving regs seq1 seq2)$/;"	d
+primitive-procedures	5.48.scm	/^(define primitive-procedures$/;"	d
+print-analyzed-result	5.12.scm	/^(define (print-analyzed-result machine)$/;"	d
+print-result	5.12.scm	/^    (define (print-result)$/;"	d
+print-statistics	5.14.scm	/^    (define (print-statistics)$/;"	d
+proceed-machine	5.19.scm	/^(define (proceed-machine machine)$/;"	d
+push	5.11.scm	/^    (define (push x)$/;"	d
+push	5.11.scm	/^(define (push stack name value)$/;"	d
+push	5.14.scm	/^    (define (push x)$/;"	d
+reset-count	5.15.scm	/^      (define (reset-count)$/;"	d
+reset-count	5.16.scm	/^      (define (reset-count)$/;"	d
+reset-count	5.17.scm	/^      (define (reset-count)$/;"	d
+reset-count	5.18.scm	/^      (define (reset-count)$/;"	d
+reset-count	5.19.scm	/^      (define (reset-count)$/;"	d
+reset-currentpoints	5.19.scm	/^      (define (reset-currentpoints)$/;"	d
+reset-label	5.17.scm	/^      (define (reset-label)$/;"	d
+reset-label	5.18.scm	/^      (define (reset-label)$/;"	d
+reset-label	5.19.scm	/^      (define (reset-label)$/;"	d
+reset-statistics	5.14.scm	/^    (define (reset-statistics)$/;"	d
+scan	5.30.scm	/^    (define (scan vars vals)$/;"	d
+scan	5.41.scm	/^    (define (scan vars d-num)$/;"	d
+scan	5.42.scm	/^    (define (scan vars d-num)$/;"	d
+scan	5.44.scm	/^    (define (scan vars d-num)$/;"	d
+scan-out-defines	5.43.scm	/^(define (scan-out-defines body)$/;"	d
+set-body	5.43.scm	/^    (define (set-body def) (list 'set! (cadr def) (caddr def)))$/;"	d
+set-breakpoint	5.19.scm	/^      (define (set-breakpoint label n)$/;"	d
+set-breakpoint	5.19.scm	/^(define (set-breakpoint machine label n)$/;"	d
+spread-accumulator	5.38.scm	/^(define (spread-accumulator operator operands)$/;"	d
+spread-accumulator-ct	5.44.scm	/^(define (spread-accumulator-ct operator operands ct-env)$/;"	d
+spread-arguments	5.38.scm	/^(define (spread-arguments arg-list)$/;"	d
+spread-arguments-ct	5.44.scm	/^(define (spread-arguments-ct arg-list ct-env)$/;"	d
+sqrt	5.3.scm	/^(define (sqrt x)$/;"	d
+sqrt-iter	5.3.scm	/^  (define (sqrt-iter guess)$/;"	d
+strip-bound-tag	5.30.scm	/^(define (strip-bound-tag var)$/;"	d
+test-machine	5.11.scm	/^(define test-machine$/;"	d
+the-global-environment	5.25.scm	/^(define the-global-environment (setup-environment))$/;"	d
+trace-it	5.16.scm	/^(define (trace-it machine in-value in-register out-register)$/;"	d
+trace-it	5.17.scm	/^(define (trace-it machine in-value in-register out-register)$/;"	d
+trace-it	5.18.scm	/^(define (trace-it machine in-value in-register out-register)$/;"	d
+trace-off	5.16.scm	/^      (define (trace-off)$/;"	d
+trace-off	5.17.scm	/^      (define (trace-off)$/;"	d
+trace-off	5.18.scm	/^      (define (trace-off)$/;"	d
+trace-off	5.18.scm	/^    (define (trace-off)$/;"	d
+trace-off	5.19.scm	/^      (define (trace-off)$/;"	d
+trace-off	5.19.scm	/^    (define (trace-off)$/;"	d
+trace-on	5.16.scm	/^      (define (trace-on)$/;"	d
+trace-on	5.17.scm	/^      (define (trace-on)$/;"	d
+trace-on	5.18.scm	/^      (define (trace-on)$/;"	d
+trace-on	5.18.scm	/^    (define (trace-on)$/;"	d
+trace-on	5.19.scm	/^      (define (trace-on)$/;"	d
+trace-on	5.19.scm	/^    (define (trace-on)$/;"	d
+u	5.43.scm	/^		(define u (+ 1 1))$/;"	d
+v	5.43.scm	/^		(define v (+ 2 2))$/;"	d
+x	5.20.scm	/^(define x (cons 1 2))$/;"	d
+x	5.21.scm	/^(define x (cons (list 1 2) (list 3 4)))$/;"	d
+x	5.22.scm	/^(define x '(1 2))$/;"	d
+y	5.20.scm	/^(define y (list x x))$/;"	d
+y	5.22.scm	/^(define y '(3 4))$/;"	d

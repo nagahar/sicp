@@ -1,0 +1,98 @@
+;; 2重リンクリストの実装が必要
+;; queue o:o>rear
+;;       v
+;;       o:o>next
+;;       v
+;;       o:o>prev
+;;       v
+;;       value
+
+(define (make-queue) (cons '() '()))
+(define (empty-queue? queue) (null? (front-ptr queue)))
+(define (front-ptr queue) (car queue))
+(define (rear-ptr queue) (cdr queue))
+(define (set-front-ptr! queue item) (set-car! queue item))
+(define (set-rear-ptr! queue item) (set-cdr! queue item))
+(define (front-queue queue)
+  (if (empty-queue? queue)
+	(error "FRONT called with an empty queue" queue)
+	(caar (front-ptr queue))))
+(define (rear-queue queue)
+  (if (empty-queue? queue)
+	(error "REAR called with an empty queue" queue)
+	(caar (rear-ptr queue))))
+(define (proc-empty queue new-pair)
+  (set-front-ptr! queue new-pair)
+  (set-rear-ptr! queue new-pair)
+  (print-queue queue))
+(define (set-next! dlist item)
+	(set-cdr! dlist item))
+(define (set-prev! dlist item)
+	(set-cdr! (car dlist) item))
+(define (front-insert-queue! queue item)
+  (let ((new-pair (cons (cons item '()) '())))
+	(cond ((empty-queue? queue)
+		   (proc-empty queue new-pair))
+	  (else
+		(set-next! new-pair (front-ptr queue))
+		(set-prev! (front-ptr queue) new-pair)
+		(set-front-ptr! queue new-pair)
+		(print-queue queue)))))
+(define (rear-insert-queue! queue item)
+  (let ((new-pair (cons (cons item '()) '())))
+	(cond ((empty-queue? queue)
+		   (proc-empty queue new-pair))
+	  (else
+		(set-next! (rear-ptr queue) new-pair)
+		(set-prev! new-pair (rear-ptr queue))
+		(set-rear-ptr! queue new-pair)
+		(print-queue queue)))))
+(define (front-delete-queue! queue)
+  (cond ((empty-queue? #?=queue)
+		 (error "DELETE! called with an empty queue" queue))
+	(else
+	  (set-front-ptr! queue (cdr (front-ptr queue)))
+	  (if (null? (front-ptr queue))
+		(set-rear-ptr! queue '())
+		(set-prev! (front-ptr queue) '()))
+	  (print-queue queue))))
+(define (rear-delete-queue! queue)
+  (cond ((empty-queue? #?=queue)
+		 (error "DELETE! called with an empty queue" queue))
+	(else
+	  (set-rear-ptr! queue (cdar (rear-ptr queue)))
+	  (if (null? (rear-ptr queue))
+		(set-front-ptr! queue '())
+		(set-next! (rear-ptr queue) '()))
+	  (print-queue queue))))
+(define (print-queue queue)
+  (if (cycle? (front-ptr #?=queue))
+	(error "queue is cyclic")
+	(front-ptr queue)))
+
+(define (cycle? lst)
+  (let ((elements '()))
+	(define (cycle-inter x)
+	  (cond ((not (pair? x)) #f)
+		((memq x elements) #t)
+		(else
+		  (set! elements (cons x elements))
+		  (cycle-inter (cdr x)))))
+	(cycle-inter lst)))
+
+(define q1 (make-queue))
+(front-insert-queue! q1 'a)
+(rear-insert-queue! q1 'd)
+(front-insert-queue! q1 'f)
+(front-insert-queue! q1 'e)
+(front-delete-queue! q1)
+(rear-delete-queue! q1)
+(rear-delete-queue! q1)
+(front-delete-queue! q1)
+(front-insert-queue! q1 'c)
+
+(define (make-cycle x)
+  (set-cdr! (last-pair x) x)
+  x)
+(define z (make-cycle (list 'a 'b 'c)))
+

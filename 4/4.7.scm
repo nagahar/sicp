@@ -1,0 +1,70 @@
+;; let*はletの入れ子によって下記のように書き換えられる
+;;(let* ((<var1> <exp1>)
+;; 	  (<var2> <exp2>)
+;; 	  ...
+;; 	  (<varn> <expn>))
+;;   <body>)
+;;
+;;(let ((<var1> <exp1>))
+;;  (let ((<var2> <exp2>))
+;;    ...
+;;      (let ((<varn> <expn>))
+;;	  <body>)))
+;;
+;; letを利用したlet*の実装は下記のようになる
+
+(load "../metacircular.scm")
+(define (let? exp) (tagged-list? exp 'let))
+(define (let-var clauses) (map car (car clauses)))
+(define (let-exp clauses) (map cadr (car clauses)))
+(define (let-body clauses) (cdr clauses))
+(define (let-clause exp) (cdr exp))
+(define (let->combination exp)
+  (expand-let-clauses (let-clause exp)))
+(define (expand-let-clauses clauses)
+  (if (null? (car clauses))
+    '()
+    (append (list (make-lambda (let-var clauses) (let-body clauses))) (let-exp clauses))))
+
+(define (let*? exp) (tagged-list? exp 'let*))
+(define (let*->nested-lets exp)
+  (expand-let*-clauses (let-clause exp)))
+(define (make-let parameters body)
+  (cons 'let (cons parameters body)))
+
+(define (expand-let*-clauses clauses)
+  (define (iter rest-parameters)
+    (if (null? rest-parameters)
+      (let-body clauses)
+      (make-let (list (car rest-parameters))
+		(list (iter (cdr rest-parameters))))))
+  (iter (car clauses)))
+
+(define (eval exp env)
+  (cond ((self-evaluating? exp) exp)
+    ((variable? exp) (lookup-variable-value exp env))
+    ((quoted? exp) (text-of-quotation exp))
+    ((assignment? exp) (eval-assignment exp env))
+    ((definition? exp) (eval-definition exp env))
+    ((if? exp) (eval-if exp env))
+    ((lambda? exp)
+     (make-procedure (lambda-parameters exp)
+		     (lambda-body exp)
+		     env))
+    ((begin? exp)
+     (eval-sequence (begin-actions exp) env))
+    ((cond? exp) (eval (cond->if exp) env))
+    ((let? exp) (eval (let->combination exp) env))
+    ((let*? exp) (eval (let*->nested-lets exp) env))
+    ((application? exp)
+     (apply (eval (operator exp) env)
+	    (list-of-values (operands exp) env)))
+    (else
+      (error "Unknown expression type -- EVAL" exp))))
+
+(let* ((x 3)
+       (y (+ x 2))
+       (z (+ x y 5)))
+  (display (* x z)))
+;;39
+(driver-loop)

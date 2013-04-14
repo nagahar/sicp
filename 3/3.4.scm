@@ -1,0 +1,30 @@
+(define (make-account balance pass)
+  (let ((miss 0))
+    (define (withdraw amount)
+      (if (>= balance amount)
+	  (begin (set! balance (- balance amount))
+		 balance)
+	  "Insufficient funds"))
+    (define (deposit amount)
+      (set! balance (+ balance amount))
+      balance)
+    (define (pass-miss amount)
+      (set! miss (+ miss 1))
+      (if (> miss 6)
+	  call-the-cops
+	  "Incorrect password"))
+    (define (dispatch p m)
+      (if (not (eq? p pass))
+	  pass-miss
+	  (begin (set! miss 0)
+		 (cond ((eq? m 'withdraw) withdraw)
+		       ((eq? m 'deposit) deposit)
+		       (else (error "Unknown request -- MAKE-ACCOUNT"
+				    m))))))
+    (define call-the-cops "We call the cops!")
+    dispatch))
+
+(define acc (make-account 100 'secret-password))
+((acc 'secret-password 'withdraw) 40)
+((acc 'some-other-password 'deposit) 50)
+

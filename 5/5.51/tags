@@ -1,0 +1,502 @@
+	session.vim	/^cnoremap  <Home>$/;"	m
+	session.vim	/^map  :call CCommentWriter()$/;"	m
+		session.vim	/^nnoremap <buffer> <silent> 	 :GaurefWord$/;"	m
+		session.vim	/^vnoremap <buffer> <silent> 	 :GaurefVisual$/;"	m
+s	session.vim	/^nnoremap <silent> s :sil! call FtOpenVimsh(&ft)$/;"	m
+	session.vim	/^cnoremap  <Del>$/;"	m
+	session.vim	/^cnoremap  <End>$/;"	m
+S	session.vim	/^imap S <Plug>ISurround$/;"	m
+s	session.vim	/^imap s <Plug>Isurround$/;"	m
+	session.vim	/^cnoremap  <Left>$/;"	m
+		session.vim	/^inoremap <silent> 	 =TriggerSnippet()$/;"	m
+	session.vim	/^cnoremap  <Right>$/;"	m
+	session.vim	/^inoremap <expr> $/;"	m
+	session.vim	/^nnoremap <buffer> $/;"	m
+		session.vim	/^inoremap <silent> 	 =ShowAvailableSnips()$/;"	m
+	session.vim	/^imap  <Plug>Isurround$/;"	m
+	session.vim	/^inoremap  u$/;"	m
+	session.vim	/^inoremap <buffer>  xmz:call search(')','bc')$/;"	m
+	session.vim	/^inoremap <expr>  omni#cpp#maycomplete#Complete()$/;"	m
+	session.vim	/^nnoremap <silent>  :nohlsearch$/;"	m
+<>	session.vim	/^inoremap <> <><Left>$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+""	session.vim	/^inoremap "" ""<Left>$/;"	m
+''	session.vim	/^inoremap '' ''<Left>$/;"	m
+()	session.vim	/^inoremap () ()<Left>$/;"	m
+,c	session.vim	/^map ,c :call IntroduceConstant()$/;"	m
+,d	session.vim	/^map ,d :call RemoveParameter()$/;"	m
+,e	session.vim	/^map ,e :call ExtractMethod()$/;"	m
+,o	session.vim	/^map ,o :call ReorderParameters()$/;"	m
+,p	session.vim	/^map ,p :call LocalVariableToParameter()$/;"	m
+,r	session.vim	/^map ,r :call RenameVariable()$/;"	m
+,0	session.vim	/^nmap ,0 <Plug>(quicklaunch-0)$/;"	m
+,1	session.vim	/^nmap ,1 <Plug>(quicklaunch-1)$/;"	m
+,2	session.vim	/^nmap ,2 <Plug>(quicklaunch-2)$/;"	m
+,3	session.vim	/^nmap ,3 <Plug>(quicklaunch-3)$/;"	m
+,4	session.vim	/^nmap ,4 <Plug>(quicklaunch-4)$/;"	m
+,5	session.vim	/^nmap ,5 <Plug>(quicklaunch-5)$/;"	m
+,6	session.vim	/^nmap ,6 <Plug>(quicklaunch-6)$/;"	m
+,7	session.vim	/^nmap ,7 <Plug>(quicklaunch-7)$/;"	m
+,8	session.vim	/^nmap ,8 <Plug>(quicklaunch-8)$/;"	m
+,9	session.vim	/^nmap ,9 <Plug>(quicklaunch-9)$/;"	m
+,Htd	session.vim	/^map ,Htd <Plug>AM_Htd$/;"	m
+,T<	session.vim	/^map ,T< <Plug>AM_T<$/;"	m
+,T|	session.vim	/^map ,T| <Plug>AM_T|$/;"	m
+,T#	session.vim	/^map ,T# <Plug>AM_T#$/;"	m
+,T,	session.vim	/^map ,T, <Plug>AM_T,o$/;"	m
+,T:	session.vim	/^map ,T: <Plug>AM_T:$/;"	m
+,T;	session.vim	/^map ,T; <Plug>AM_T;$/;"	m
+,T=	session.vim	/^map ,T= <Plug>AM_T=$/;"	m
+,T?	session.vim	/^map ,T? <Plug>AM_T?$/;"	m
+,T@	session.vim	/^map ,T@ <Plug>AM_T@$/;"	m
+,Tab	session.vim	/^map ,Tab <Plug>AM_Tab$/;"	m
+,Ts,	session.vim	/^map ,Ts, <Plug>AM_Ts,$/;"	m
+,Tsp	session.vim	/^map ,Tsp <Plug>AM_Tsp$/;"	m
+,T~	session.vim	/^map ,T~ <Plug>AM_T~$/;"	m
+,a<	session.vim	/^map ,a< <Plug>AM_a<$/;"	m
+,a(	session.vim	/^map ,a( <Plug>AM_a($/;"	m
+,a,	session.vim	/^map ,a, <Plug>AM_a,$/;"	m
+,a=	session.vim	/^map ,a= <Plug>AM_a=$/;"	m
+,a?	session.vim	/^map ,a? <Plug>AM_a?$/;"	m
+,abox	session.vim	/^map ,abox <Plug>AM_abox$/;"	m
+,acom	session.vim	/^map ,acom <Plug>AM_acom$/;"	m
+,adcom	session.vim	/^map ,adcom <Plug>AM_adcom$/;"	m
+,adec	session.vim	/^map ,adec <Plug>AM_adec$/;"	m
+,adef	session.vim	/^map ,adef <Plug>AM_adef$/;"	m
+,afnc	session.vim	/^map ,afnc <Plug>AM_afnc$/;"	m
+,anum	session.vim	/^map ,anum <Plug>AM_aunum$/;"	m
+,aocom	session.vim	/^map ,aocom <Plug>AM_aocom$/;"	m
+,ascom	session.vim	/^map ,ascom <Plug>AM_ascom$/;"	m
+,aunum	session.vim	/^map ,aunum <Plug>AM_aenum$/;"	m
+,b	session.vim	/^nnoremap ,b :cprevious$/;"	m
+,c	session.vim	/^nmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c	session.vim	/^vmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c$	session.vim	/^nmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,c$	session.vim	/^vmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,cA	session.vim	/^nmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cA	session.vim	/^vmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,ca	session.vim	/^nmap ,ca <Plug>NERDCommenterAltDelims$/;"	m
+,caL	session.vim	/^nmap ,caL <Plug>CalendarH$/;"	m
+,cal	session.vim	/^nmap ,cal <Plug>CalendarV$/;"	m
+,cb	session.vim	/^nmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cb	session.vim	/^vmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cc	session.vim	/^nmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cc	session.vim	/^vmap ,cc <Plug>NERDCommenterComment$/;"	m
+,ci	session.vim	/^nmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,ci	session.vim	/^vmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,cl	session.vim	/^nmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cl	session.vim	/^vmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cm	session.vim	/^nmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cm	session.vim	/^vmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cn	session.vim	/^nmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cn	session.vim	/^vmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cs	session.vim	/^nmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cs	session.vim	/^vmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cu	session.vim	/^nmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cu	session.vim	/^vmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cy	session.vim	/^nmap ,cy <Plug>NERDCommenterYank$/;"	m
+,cy	session.vim	/^vmap ,cy <Plug>NERDCommenterYank$/;"	m
+,ev	session.vim	/^nnoremap <silent> ,ev :e $MYVIMRC$/;"	m
+,f	session.vim	/^nnoremap ,f :cnext$/;"	m
+,ih	session.vim	/^imap ,ih :IHS$/;"	m
+,ih	session.vim	/^nmap ,ih :IHS$/;"	m
+,ihn	session.vim	/^imap ,ihn :IHN$/;"	m
+,ihn	session.vim	/^nmap ,ihn :IHN$/;"	m
+,is	session.vim	/^imap ,is :IHS$/;"	m
+,is	session.vim	/^nmap ,is :IHS$/;"	m
+,j	session.vim	/^nmap ,j vip=$/;"	m
+,l	session.vim	/^nmap ,l <Plug>(quicklaunch-list)$/;"	m
+,m=	session.vim	/^map ,m= <Plug>AM_m=$/;"	m
+,r	session.vim	/^map ,r <Plug>(quickrun)$/;"	m
+,rwp	session.vim	/^map ,rwp <Plug>RestoreWinPosn$/;"	m
+,s	session.vim	/^nnoremap <silent> ,s :Utl ol www.google.com\/search?q=\/$/;"	m
+,sh	session.vim	/^nnoremap ,sh :leftabove  vnew$/;"	m
+,sj	session.vim	/^nnoremap ,sj :rightbelow new$/;"	m
+,sk	session.vim	/^nnoremap ,sk :leftabove  new$/;"	m
+,sl	session.vim	/^nnoremap ,sl :rightbelow vnew$/;"	m
+,swh	session.vim	/^nnoremap ,swh :topleft  vnew$/;"	m
+,swj	session.vim	/^nnoremap ,swj :botright new$/;"	m
+,swk	session.vim	/^nnoremap ,swk :topleft  new$/;"	m
+,swl	session.vim	/^nnoremap ,swl :botright vnew$/;"	m
+,swp	session.vim	/^map ,swp <Plug>SaveWinPosn$/;"	m
+,t	session.vim	/^inoremap <silent> <expr> ,t (exists('#AutoComplPopGlobalAutoCommand#InsertEnter#*')) ? "\\:AutoComplPopDisable\\$/;"	m
+,t<	session.vim	/^map ,t< <Plug>AM_t<$/;"	m
+,t|	session.vim	/^map ,t| <Plug>AM_t|$/;"	m
+,t#	session.vim	/^map ,t# <Plug>AM_t#$/;"	m
+,t,	session.vim	/^map ,t, <Plug>AM_t,$/;"	m
+,t:	session.vim	/^map ,t: <Plug>AM_t:$/;"	m
+,t;	session.vim	/^map ,t; <Plug>AM_t;$/;"	m
+,t=	session.vim	/^map ,t= <Plug>AM_t=$/;"	m
+,t?	session.vim	/^map ,t? <Plug>AM_t?$/;"	m
+,t@	session.vim	/^map ,t@ <Plug>AM_t@$/;"	m
+,tab	session.vim	/^map ,tab <Plug>AM_tab$/;"	m
+,tml	session.vim	/^map ,tml <Plug>AM_tml$/;"	m
+,ts<	session.vim	/^map ,ts< <Plug>AM_ts<$/;"	m
+,ts,	session.vim	/^map ,ts, <Plug>AM_ts,$/;"	m
+,ts:	session.vim	/^map ,ts: <Plug>AM_ts:$/;"	m
+,ts;	session.vim	/^map ,ts; <Plug>AM_ts;$/;"	m
+,ts=	session.vim	/^map ,ts= <Plug>AM_ts=$/;"	m
+,tsp	session.vim	/^map ,tsp <Plug>AM_tsp$/;"	m
+,tsq	session.vim	/^map ,tsq <Plug>AM_tsq$/;"	m
+,tt	session.vim	/^map ,tt <Plug>AM_tt$/;"	m
+,t~	session.vim	/^map ,t~ <Plug>AM_t~$/;"	m
+,u	session.vim	/^nnoremap <silent> ,u :Utl$/;"	m
+,v2	session.vim	/^nmap <silent> ,v2 :call DTEFindResults(2)$/;"	m
+,va	session.vim	/^nmap <silent> ,va :call DTEAbout()$/;"	m
+,vb	session.vim	/^nmap <silent> ,vb :call DTEBuildSolution()$/;"	m
+,vc	session.vim	/^nmap <silent> ,vc :call DTECompileFile()$/;"	m
+,vf	session.vim	/^nmap <silent> ,vf :call DTEFindResults(1)$/;"	m
+,vg	session.vim	/^nmap <silent> ,vg :call DTEGetFile()$/;"	m
+,vh	session.vim	/^nmap <silent> ,vh :call DTEOnline()$/;"	m
+,vj	session.vim	/^nmap <silent> ,vj :call DTEGetProjects()$/;"	m
+,vo	session.vim	/^nmap <silent> ,vo :call DTEOutput()$/;"	m
+,vp	session.vim	/^nmap <silent> ,vp :call DTEPutFile()$/;"	m
+,vs	session.vim	/^nmap <silent> ,vs :call DTEGetSolutions()$/;"	m
+,vt	session.vim	/^nmap <silent> ,vt :call DTETaskList()$/;"	m
+,vu	session.vim	/^nmap <silent> ,vu :call DTEBuildStartupProject()$/;"	m
+,w=	session.vim	/^map ,w= <Plug>AM_w=$/;"	m
+.	session.vim	/^inoremap <expr> . omni#cpp#maycomplete#Dot()$/;"	m
+0	session.vim	/^normal! 0$/;"	m
+014l	session.vim	/^normal! 014l$/;"	m
+01l	session.vim	/^normal! 01l$/;"	m
+:	session.vim	/^inoremap <expr> : omni#cpp#maycomplete#Scope()$/;"	m
+<C-F12>	session.vim	/^nnoremap <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .$/;"	m
+<D-BS>	session.vim	/^imap <D-BS> $/;"	m
+<D-Down>	session.vim	/^inoremap <D-Down> <C-End>$/;"	m
+<D-Down>	session.vim	/^noremap <D-Down> <C-End>$/;"	m
+<D-Left>	session.vim	/^noremap <D-Left> <Home>$/;"	m
+<D-Left>	session.vim	/^noremap! <D-Left> <Home>$/;"	m
+<D-Right>	session.vim	/^noremap <D-Right> <End>$/;"	m
+<D-Right>	session.vim	/^noremap! <D-Right> <End>$/;"	m
+<D-Up>	session.vim	/^inoremap <D-Up> <C-Home>$/;"	m
+<D-Up>	session.vim	/^noremap <D-Up> <C-Home>$/;"	m
+<D-c>	session.vim	/^vmap <D-c> "*y$/;"	m
+<D-v>	session.vim	/^map! <D-v> *$/;"	m
+<D-v>	session.vim	/^nmap <D-v> "*P$/;"	m
+<D-v>	session.vim	/^vmap <D-v> "-d"*P$/;"	m
+<D-x>	session.vim	/^vmap <D-x> "*d$/;"	m
+<Down>	session.vim	/^nnoremap <Down> gj$/;"	m
+<F10>	session.vim	/^nnoremap <F10> :TrinityToggleSourceExplorer$/;"	m
+<F11>	session.vim	/^nnoremap <F11> :TrinityToggleTagList$/;"	m
+<F12>	session.vim	/^nnoremap <F12> :TrinityToggleAll$/;"	m
+<F1>	session.vim	/^nnoremap <F1> K$/;"	m
+<F2>	session.vim	/^nnoremap <F2> :TrinityToggleNERDTree$/;"	m
+<F3>	session.vim	/^nnoremap <F3> :source %$/;"	m
+<F3>	session.vim	/^nnoremap <buffer> <F3> ==j$/;"	m
+<F4>	session.vim	/^nnoremap <F4> :runtime macros\/vimsh.vim$/;"	m
+<F5>	session.vim	/^nnoremap <buffer> <silent> <F5> :!gosh < %$/;"	m
+<M-BS>	session.vim	/^imap <M-BS> $/;"	m
+<M-Down>	session.vim	/^imap <M-Down> }$/;"	m
+<M-Down>	session.vim	/^map <M-Down> }$/;"	m
+<M-Left>	session.vim	/^noremap <M-Left> <C-Left>$/;"	m
+<M-Left>	session.vim	/^noremap! <M-Left> <C-Left>$/;"	m
+<M-Right>	session.vim	/^noremap <M-Right> <C-Right>$/;"	m
+<M-Right>	session.vim	/^noremap! <M-Right> <C-Right>$/;"	m
+<M-Up>	session.vim	/^imap <M-Up> {$/;"	m
+<M-Up>	session.vim	/^map <M-Up> {$/;"	m
+<NL>	session.vim	/^cnoremap <NL> <Nop>$/;"	m
+<NL>	session.vim	/^imap <NL> <Plug>IMAP_JumpForward$/;"	m
+<NL>	session.vim	/^nmap <NL> <Plug>IMAP_JumpForward$/;"	m
+<NL>	session.vim	/^vmap <NL> <Plug>IMAP_JumpForward$/;"	m
+<Plug>(quickrun)	session.vim	/^nnoremap <silent> <Plug>(quickrun) :QuickRun -mode n$/;"	m
+<Plug>(quickrun)	session.vim	/^vnoremap <silent> <Plug>(quickrun) :QuickRun -mode v$/;"	m
+<Plug>(quickrun-op)	session.vim	/^nnoremap <silent> <Plug>(quickrun-op) :set operatorfunc=QuickRun$/;"	m
+<Plug>CalendarH	session.vim	/^nnoremap <silent> <Plug>CalendarH :cal Calendar(1)$/;"	m
+<Plug>CalendarV	session.vim	/^nnoremap <silent> <Plug>CalendarV :cal Calendar(0)$/;"	m
+<Plug>IMAP_DeleteAndJumpBack	session.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpBack "_<Del>i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_DeleteAndJumpForward	session.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpForward "_<Del>i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpBack	session.vim	/^imap <silent> <Plug>IMAP_JumpBack =IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	session.vim	/^nmap <silent> <Plug>IMAP_JumpBack i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	session.vim	/^vmap <silent> <Plug>IMAP_JumpBack `<i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpForward	session.vim	/^imap <silent> <Plug>IMAP_JumpForward =IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	session.vim	/^nmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	session.vim	/^vmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>NERDCommenterAlignBoth	session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(0, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	session.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(1, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignLeft	session.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(0, "alignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	session.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(1, "alignLeft")$/;"	m
+<Plug>NERDCommenterAppend	session.vim	/^nmap <silent> <Plug>NERDCommenterAppend :call NERDComment(0, "append")$/;"	m
+<Plug>NERDCommenterComment	session.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(0, "norm")$/;"	m
+<Plug>NERDCommenterComment	session.vim	/^vnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(1, "norm")$/;"	m
+<Plug>NERDCommenterInInsert	session.vim	/^inoremap <silent> <Plug>NERDCommenterInInsert  <BS>:call NERDComment(0, "insert")$/;"	m
+<Plug>NERDCommenterInvert	session.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(0, "invert")$/;"	m
+<Plug>NERDCommenterInvert	session.vim	/^vnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(1, "invert")$/;"	m
+<Plug>NERDCommenterMinimal	session.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(0, "minimal")$/;"	m
+<Plug>NERDCommenterMinimal	session.vim	/^vnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(1, "minimal")$/;"	m
+<Plug>NERDCommenterNest	session.vim	/^nnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(0, "nested")$/;"	m
+<Plug>NERDCommenterNest	session.vim	/^vnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(1, "nested")$/;"	m
+<Plug>NERDCommenterSexy	session.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(0, "sexy")$/;"	m
+<Plug>NERDCommenterSexy	session.vim	/^vnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(1, "sexy")$/;"	m
+<Plug>NERDCommenterToEOL	session.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment(0, "toEOL")$/;"	m
+<Plug>NERDCommenterToggle	session.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(0, "toggle")$/;"	m
+<Plug>NERDCommenterToggle	session.vim	/^vnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(1, "toggle")$/;"	m
+<Plug>NERDCommenterUncomment	session.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(0, "uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	session.vim	/^vnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(1, "uncomment")$/;"	m
+<Plug>NERDCommenterYank	session.vim	/^nmap <silent> <Plug>NERDCommenterYank :call NERDComment(0, "yank")$/;"	m
+<Plug>NERDCommenterYank	session.vim	/^vmap <silent> <Plug>NERDCommenterYank :call NERDComment(1, "yank")$/;"	m
+<Plug>NetrwBrowseX	session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>RestoreWinPosn	session.vim	/^nmap <silent> <Plug>RestoreWinPosn :call RestoreWinPosn()$/;"	m
+<Plug>SaveWinPosn	session.vim	/^nmap <silent> <Plug>SaveWinPosn :call SaveWinPosn()$/;"	m
+<S-Insert>	session.vim	/^map <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	session.vim	/^map! <S-Insert> <MiddleMouse>$/;"	m
+<S-Tab>	session.vim	/^inoremap <silent> <S-Tab> =BackwardsSnippet()$/;"	m
+<SNR>14_(command-line-enter)	session.vim	/^nnoremap <SNR>14_(command-line-enter) q:$/;"	m
+<SNR>14_(command-line-norange)	session.vim	/^nnoremap <SNR>14_(command-line-norange) q:$/;"	m
+<SNR>18_WE	session.vim	/^nmap <SNR>18_WE <Plug>AlignMapsWrapperEnd$/;"	m
+<SNR>18_WS	session.vim	/^map <SNR>18_WS <Plug>AlignMapsWrapperStart$/;"	m
+<Up>	session.vim	/^nnoremap <Up> gk$/;"	m
+==	session.vim	/^nnoremap == gg=G2$/;"	m
+>	session.vim	/^inoremap <expr> > omni#cpp#maycomplete#Arrow()$/;"	m
+CC	Makefile	/^CC = gcc -Wall -Wextra -Wformat=2 -Wstrict-aliasing=2 -Wcast-qual -Wcast-align -Wconversion -Wfloat-equal -Wpointer-arith -Wswitch-enum$/;"	m
+ENV	env.c	/^static struct pair ENV = { NULL, NULL };$/;"	v	typeref:struct:pair	file:
+EXEC	Makefile	/^EXEC = interpreter$/;"	m
+FALSE	env.h	/^static const int FALSE = 0;$/;"	v
+FALSE_CONTENT	env.c	/^static struct entity FALSE_CONTENT = {$/;"	v	typeref:struct:entity	file:
+FALSE_NODE	env.c	/^static struct pair FALSE_NODE = { &FALSE_CONTENT, NULL };$/;"	v	typeref:struct:pair	file:
+H	session.vim	/^nnoremap <silent> H :ConqueTermVSplit zsh$/;"	m
+K	session.vim	/^nnoremap <buffer> K :!gosh -u gauche.interactive -E "info '"'<cword>' -E exit$/;"	m
+OBJS	Makefile	/^OBJS = main.o eval.o exp.o env.o util.o$/;"	m
+Q	session.vim	/^nnoremap Q gqaq$/;"	m
+Q	session.vim	/^omap Q gq$/;"	m
+Q	session.vim	/^vnoremap Q gq$/;"	m
+SIZE	main.c	/^enum { SIZE = 4096 };$/;"	e	enum:__anon3	file:
+SessionLoad	session.vim	/^let SessionLoad = 1$/;"	v
+TRUE	env.h	/^static const int TRUE = 1;$/;"	v
+TRUE_CONTENT	env.c	/^static struct entity TRUE_CONTENT = {$/;"	v	typeref:struct:entity	file:
+TRUE_NODE	env.c	/^static struct pair TRUE_NODE = { &TRUE_CONTENT, NULL };$/;"	v	typeref:struct:pair	file:
+TYPE_ATOM	exp.h	/^	TYPE_ATOM,$/;"	e	enum:entitytag
+TYPE_ATOM_FUNC	exp.h	/^	TYPE_ATOM_FUNC,$/;"	e	enum:atomtag
+TYPE_ATOM_INT	exp.h	/^	TYPE_ATOM_INT,$/;"	e	enum:atomtag
+TYPE_ATOM_REAL	exp.h	/^	TYPE_ATOM_REAL,$/;"	e	enum:atomtag
+TYPE_ATOM_SYM	exp.h	/^	TYPE_ATOM_SYM = 0,$/;"	e	enum:atomtag
+TYPE_PAIR	exp.h	/^	TYPE_PAIR = 0,$/;"	e	enum:entitytag
+[%	session.vim	/^vmap [% [%m'gv``$/;"	m
+[]	session.vim	/^inoremap [] []<Left>$/;"	m
+\pt	session.vim	/^nmap \\pt :call PreviewWord()$/;"	m
+]%	session.vim	/^vmap ]% ]%m'gv``$/;"	m
+__ENV_H__	env.h	/^#define __ENV_H__$/;"	d
+__EVAL_H__	eval.h	/^#define __EVAL_H__$/;"	d
+__EXP_H__	exp.h	/^#define __EXP_H__$/;"	d
+__MAIN_H__	main.h	/^#define __MAIN_H__$/;"	d
+__UTIL_H__	util.h	/^#define __UTIL_H__$/;"	d
+a	exp.h	/^		struct atom *a;$/;"	m	union:entity::__anon1	typeref:struct:entity::__anon1::atom	access:public
+a%	session.vim	/^vmap a% [%v]%$/;"	m
+add	env.c	/^static struct pair *add(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+add	env.c	/^static struct pair *add(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+add_it	env.c	/^static int add_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+add_it	env.c	/^static int add_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+add_pair	exp.c	/^void add_pair(struct pair *new, struct pair *p, struct llist *l)$/;"	f	signature:(struct pair *new, struct pair *p, struct llist *l)
+add_pair	exp.h	/^void add_pair(struct pair *new, struct pair *n, struct llist *l);$/;"	p	signature:(struct pair *new, struct pair *n, struct llist *l)
+apply	eval.c	/^struct pair *apply(struct pair *procedure, struct pair *arguments)$/;"	f	signature:(struct pair *procedure, struct pair *arguments)
+apply	eval.c	/^struct pair *apply(struct pair *procedure, struct pair *arguments);$/;"	p	file:	signature:(struct pair *procedure, struct pair *arguments)
+apply_primitive	eval.c	/^struct pair *apply_primitive(struct pair *procedure, struct pair *arguments)$/;"	f	signature:(struct pair *procedure, struct pair *arguments)
+apply_primitive	eval.c	/^struct pair *apply_primitive(struct pair *procedure, struct pair *arguments);$/;"	p	file:	signature:(struct pair *procedure, struct pair *arguments)
+as	exp.h	/^	} as;$/;"	m	struct:atom	typeref:union:atom::__anon2	access:public
+as	exp.h	/^	} as;$/;"	m	struct:entity	typeref:union:entity::__anon1	access:public
+atom	exp.h	/^struct atom {$/;"	s
+atom::__anon2::d	exp.h	/^		double d;$/;"	m	union:atom::__anon2	access:public
+atom::__anon2::f	exp.h	/^		struct pair *(*f)(struct pair *arg);$/;"	m	union:atom::__anon2	typeref:struct:atom::__anon2::f	access:public
+atom::__anon2::l	exp.h	/^		long l;$/;"	m	union:atom::__anon2	access:public
+atom::__anon2::s	exp.h	/^		char *s;$/;"	m	union:atom::__anon2	access:public
+atom::as	exp.h	/^	} as;$/;"	m	struct:atom	typeref:union:atom::__anon2	access:public
+atom::type	exp.h	/^	enum atomtag type;$/;"	m	struct:atom	typeref:enum:atom::atomtag	access:public
+atomtag	exp.h	/^enum atomtag {$/;"	g
+buffer	main.c	/^static char buffer[ SIZE + 1 ];$/;"	v	file:
+car	env.c	/^static struct pair *car(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+car	env.c	/^static struct pair *car(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+car	exp.h	/^	struct entity *car;$/;"	m	struct:pair	typeref:struct:pair::entity	access:public
+cdr	env.c	/^static struct pair *cdr(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+cdr	env.c	/^static struct pair *cdr(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+cdr	exp.h	/^	struct entity *cdr;$/;"	m	struct:pair	typeref:struct:pair::entity	access:public
+comp_proc	exp.c	/^struct procedure *comp_proc(struct pair *(*fun)(struct pair *arg))$/;"	f	signature:(struct pair *(*fun)(struct pair *arg))
+compare	env.c	/^static struct pair *compare(struct pair *operands, int (*fun)(int suc, int value))$/;"	f	file:	signature:(struct pair *operands, int (*fun)(int suc, int value))
+compare	env.c	/^static struct pair *compare(struct pair *operands, int (*fun)(int suc, int value));$/;"	p	file:	signature:(struct pair *operands, int (*fun)(int suc, int value))
+cons	env.c	/^static struct pair *cons(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+cons	env.c	/^static struct pair *cons(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+cs	session.vim	/^nmap cs <Plug>Csurround$/;"	m
+d	exp.h	/^		double d;$/;"	m	union:atom::__anon2	access:public
+div_it	env.c	/^static int div_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+div_it	env.c	/^static int div_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+divd	env.c	/^static struct pair *divd(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+divd	env.c	/^static struct pair *divd(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+ds	session.vim	/^nmap ds <Plug>Dsurround$/;"	m
+dup_pair	exp.c	/^struct pair *dup_pair(const struct pair * const orig)$/;"	f	signature:(const struct pair * const orig)
+dup_pair	exp.h	/^struct pair *dup_pair(const struct pair * const orig);$/;"	p	signature:(const struct pair * const orig)
+each_eval	eval.c	/^struct pair* each_eval(struct pair *exp, struct pair *env)$/;"	f	signature:(struct pair *exp, struct pair *env)
+each_eval	eval.c	/^struct pair* each_eval(struct pair *exp, struct pair *env);$/;"	p	file:	signature:(struct pair *exp, struct pair *env)
+ecalloc	util.c	/^void *ecalloc(size_t num, size_t sz)$/;"	f	signature:(size_t num, size_t sz)
+ecalloc	util.h	/^void *ecalloc(size_t num, size_t sz);$/;"	p	signature:(size_t num, size_t sz)
+entity	exp.h	/^struct entity {$/;"	s
+entity::__anon1::a	exp.h	/^		struct atom *a;$/;"	m	union:entity::__anon1	typeref:struct:entity::__anon1::atom	access:public
+entity::__anon1::p	exp.h	/^		struct pair *p;$/;"	m	union:entity::__anon1	typeref:struct:entity::__anon1::pair	access:public
+entity::as	exp.h	/^	} as;$/;"	m	struct:entity	typeref:union:entity::__anon1	access:public
+entity::type	exp.h	/^	enum entitytag type;$/;"	m	struct:entity	typeref:enum:entity::entitytag	access:public
+entity_alloc	exp.c	/^struct entity *entity_alloc();$/;"	p	file:
+entity_alloc	exp.c	/^struct entity *entity_alloc(enum entitytag type, void *p)$/;"	f	signature:(enum entitytag type, void *p)
+entity_free	exp.c	/^void entity_free(struct entity *d);$/;"	p	file:	signature:(struct entity *d)
+entity_free	exp.c	/^void entity_free(struct entity *e)$/;"	f	signature:(struct entity *e)
+entitytag	exp.h	/^enum entitytag {$/;"	g
+env_loop	eval.c	/^struct pair *env_loop(const struct pair * const var, struct pair *env)$/;"	f	signature:(const struct pair * const var, struct pair *env)
+env_loop	eval.c	/^struct pair *env_loop(const struct pair * const var, struct pair *env);$/;"	p	file:	signature:(const struct pair * const var, struct pair *env)
+eq	env.c	/^static struct pair *eq(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+eq	env.c	/^static struct pair *eq(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+eq_it	env.c	/^static int eq_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+eq_it	env.c	/^static int eq_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+eval	eval.c	/^struct pair *eval(struct pair *exp, struct pair *env)$/;"	f	signature:(struct pair *exp, struct pair *env)
+eval	eval.h	/^struct pair *eval(struct pair *exp, struct pair *env);$/;"	p	signature:(struct pair *exp, struct pair *env)
+extend_environment	env.c	/^static struct pair *extend_environment(struct pair *vars, struct pair *vals, struct pair *env)$/;"	f	file:	signature:(struct pair *vars, struct pair *vals, struct pair *env)
+extend_environment	env.c	/^static struct pair *extend_environment(struct pair *vars, struct pair *vals, struct pair *env);$/;"	p	file:	signature:(struct pair *vars, struct pair *vals, struct pair *env)
+f	exp.h	/^		struct pair *(*f)(struct pair *arg);$/;"	m	union:atom::__anon2	typeref:struct:atom::__anon2::f	access:public
+fold	env.c	/^static struct pair *fold(struct pair *operands, const int init,$/;"	f	file:	signature:(struct pair *operands, const int init, int (*fun)(int suc, int value))
+fold	env.c	/^static struct pair *fold(struct pair *operands, const int init,$/;"	p	file:	signature:(struct pair *operands, const int init, int (*fun)(int suc, int value))
+free_pair	exp.c	/^void free_pair(struct pair *p)$/;"	f	signature:(struct pair *p)
+free_pair	exp.h	/^void free_pair(struct pair *n);$/;"	p	signature:(struct pair *n)
+ge	env.c	/^static struct pair *ge(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+ge	env.c	/^static struct pair *ge(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+ge_it	env.c	/^static int ge_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+ge_it	env.c	/^static int ge_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+gt	env.c	/^static struct pair *gt(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+gt	env.c	/^static struct pair *gt(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+gt_it	env.c	/^static int gt_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+gt_it	env.c	/^static int gt_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+gx	session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+h	session.vim	/^nnoremap <expr> h col('.') == 1 && foldlevel(line('.')) > 0 ? 'zc' : 'h'$/;"	m
+h	session.vim	/^vnoremap <expr> h col('.') == 1 && foldlevel(line('.')) > 0 ? 'zcgv' : 'h'$/;"	m
+head	exp.h	/^	struct pair *head;$/;"	m	struct:llist	typeref:struct:llist::pair	access:public
+initial_env	env.c	/^static struct pair *initial_env()$/;"	f	file:
+initial_env	env.c	/^static struct pair *initial_env();$/;"	p	file:
+is_application	eval.c	/^int is_application(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_application	eval.c	/^int is_application(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+is_compound	exp.c	/^int is_compound(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+is_compound	exp.h	/^int is_compound(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+is_list	exp.c	/^int is_list(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+is_list	exp.h	/^int is_list(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+is_null	env.c	/^static struct pair *is_null(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+is_null	env.c	/^static struct pair *is_null(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+is_number	eval.c	/^int is_number(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_number	eval.c	/^int is_number(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+is_pair	eval.c	/^int is_pair(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_pair	eval.c	/^int is_pair(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+is_primitive	exp.c	/^int is_primitive(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+is_primitive	exp.h	/^int is_primitive(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+is_procedure	exp.c	/^int is_procedure(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+is_procedure	exp.h	/^int is_procedure(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+is_self_evaluating	eval.c	/^int is_self_evaluating(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_self_evaluating	eval.c	/^int is_self_evaluating(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+is_string	eval.c	/^int is_string(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_string	eval.c	/^int is_string(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+is_symbol	exp.c	/^int is_symbol(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+is_symbol	exp.h	/^int is_symbol(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+is_variable	eval.c	/^int is_variable(const struct pair * const exp)$/;"	f	signature:(const struct pair * const exp)
+is_variable	eval.c	/^int is_variable(const struct pair * const exp);$/;"	p	file:	signature:(const struct pair * const exp)
+j	session.vim	/^nnoremap j gj$/;"	m
+k	session.vim	/^nnoremap k gk$/;"	m
+l	exp.h	/^		long l;$/;"	m	union:atom::__anon2	access:public
+l	session.vim	/^nnoremap <expr> l foldclosed(line('.')) != -1 ? 'zo0' : 'l'$/;"	m
+l	session.vim	/^vnoremap <expr> l foldclosed(line('.')) != -1 ? 'zogv0' : 'l'$/;"	m
+le	env.c	/^static struct pair *le(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+le	env.c	/^static struct pair *le(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+le_it	env.c	/^static int le_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+le_it	env.c	/^static int le_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+length	exp.c	/^int length(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+length	exp.h	/^int length(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+llist	exp.h	/^struct llist {$/;"	s
+llist::head	exp.h	/^	struct pair *head;$/;"	m	struct:llist	typeref:struct:llist::pair	access:public
+llist::tail	exp.h	/^	struct pair *tail;$/;"	m	struct:llist	typeref:struct:llist::pair	access:public
+lookup_variable_values	eval.c	/^struct pair *lookup_variable_values(const struct pair * const var,$/;"	f	signature:(const struct pair * const var, struct pair *env)
+lookup_variable_values	eval.c	/^struct pair *lookup_variable_values(const struct pair * const var,$/;"	p	file:	signature:(const struct pair * const var, struct pair *env)
+lt	env.c	/^static struct pair *lt(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+lt	env.c	/^static struct pair *lt(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+lt_it	env.c	/^static int lt_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+lt_it	env.c	/^static int lt_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+main	main.c	/^int main()$/;"	f
+make_entity	exp.c	/^struct entity *make_entity(char *str)$/;"	f	signature:(char *str)
+make_entity	exp.h	/^struct entity *make_entity(char *str);$/;"	p	signature:(char *str)
+make_entity_i	exp.c	/^struct entity *make_entity_i(int i, size_t n)$/;"	f	signature:(int i, size_t n)
+make_entity_i	exp.h	/^struct entity *make_entity_i(int i, size_t n);$/;"	p	signature:(int i, size_t n)
+make_pair	exp.c	/^struct entity *make_pair(struct pair *p)$/;"	f	signature:(struct pair *p)
+make_pair	exp.c	/^struct pair *make_pair(struct entity *data, struct entity *next)$/;"	f	signature:(struct entity *data, struct entity *next)
+make_pair	exp.h	/^struct entity *make_pair(struct pair *p);$/;"	p	signature:(struct pair *p)
+make_proc	exp.c	/^struct procedure *make_proc(int type, struct pair *(*fun)(struct pair *arg))$/;"	f	signature:(int type, struct pair *(*fun)(struct pair *arg))
+make_proc	exp.c	/^struct procedure *make_proc(int type, struct pair *(*fun)(struct pair *arg));$/;"	p	file:	signature:(int type, struct pair *(*fun)(struct pair *arg))
+make_procedure	exp.c	/^struct entity *make_procedure(struct procedure *p)$/;"	f	signature:(struct procedure *p)
+mul	env.c	/^static struct pair *mul(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+mul	env.c	/^static struct pair *mul(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+mul_it	env.c	/^static int mul_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+mul_it	env.c	/^static int mul_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+names	env.c	/^static char *names[] = {$/;"	v	file:
+not	env.c	/^static struct pair *not(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+not	env.c	/^static struct pair *not(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+num_char	util.c	/^int num_char(const char * const str, const char c)$/;"	f	signature:(const char * const str, const char c)
+num_char	util.h	/^int num_char(const char * const str, const char c);$/;"	p	signature:(const char * const str, const char c)
+p	exp.h	/^		struct pair *p;$/;"	m	union:entity::__anon1	typeref:struct:entity::__anon1::pair	access:public
+p_names	env.c	/^static struct pair *p_names()$/;"	f	file:
+p_names	env.c	/^static struct pair *p_names();$/;"	p	file:
+p_procedures	env.c	/^static struct pair *p_procedures()$/;"	f	file:
+p_procedures	env.c	/^static struct pair *p_procedures();$/;"	p	file:
+pair	exp.h	/^struct pair {$/;"	s
+pair::car	exp.h	/^	struct entity *car;$/;"	m	struct:pair	typeref:struct:pair::entity	access:public
+pair::cdr	exp.h	/^	struct entity *cdr;$/;"	m	struct:pair	typeref:struct:pair::entity	access:public
+pair_size	main.c	/^int pair_size(const char *str)$/;"	f	signature:(const char *str)
+pair_size	main.c	/^int pair_size(const char *str);$/;"	p	file:	signature:(const char *str)
+parse	main.c	/^struct pair *parse(char *str)$/;"	f	signature:(char *str)
+parse	main.c	/^struct pair *parse(char *str);$/;"	p	file:	signature:(char *str)
+prev	exp.c	/^struct pair *prev(struct pair *n, struct llist *l);$/;"	p	file:	signature:(struct pair *n, struct llist *l)
+prev	exp.c	/^struct pair *prev(struct pair *p, struct llist *l)$/;"	f	signature:(struct pair *p, struct llist *l)
+prim_proc	exp.c	/^struct procedure *prim_proc(struct pair *(*fun)(struct pair *arg))$/;"	f	signature:(struct pair *(*fun)(struct pair *arg))
+prim_proc	exp.h	/^struct entity *prim_proc(struct pair *(*fun)(struct pair *arg));$/;"	p	signature:(struct pair *(*fun)(struct pair *arg))
+procedures	env.c	/^static struct pair *(*procedures[])(struct pair *) = {$/;"	v	typeref:struct:procedures	file:
+reverse	main.c	/^void reverse(char *s, int size);$/;"	p	file:	signature:(char *s, int size)
+s	exp.h	/^		char *s;$/;"	m	union:atom::__anon2	access:public
+s	session.vim	/^onoremap <buffer> s a)$/;"	m
+s:cpo_save	session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	session.vim	/^let s:l = 12 - ((9 * winheight(0) + 11) \/ 23)$/;"	v
+s:l	session.vim	/^let s:l = 248 - ((10 * winheight(0) + 11) \/ 22)$/;"	v
+s:l	session.vim	/^let s:l = 25 - ((24 * winheight(0) + 23) \/ 46)$/;"	v
+s:so_save	session.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+scan	eval.c	/^struct pair *scan(const struct pair * const var,$/;"	f	signature:(const struct pair * const var, struct pair *vars, struct pair * vals, struct pair *env)
+scan	eval.c	/^struct pair *scan(const struct pair * const var,$/;"	p	file:	signature:(const struct pair * const var, struct pair *vars, struct pair * vals, struct pair *env)
+setup_environment	env.c	/^struct pair *setup_environment()$/;"	f
+setup_environment	env.h	/^struct pair *setup_environment();$/;"	p	signature:()
+show	exp.c	/^void show(const struct pair * const p)$/;"	f	signature:(const struct pair * const p)
+show	exp.h	/^void show(const struct pair * const p);$/;"	p	signature:(const struct pair * const p)
+sub	env.c	/^static struct pair *sub(struct pair *operands)$/;"	f	file:	signature:(struct pair *operands)
+sub	env.c	/^static struct pair *sub(struct pair *operands);$/;"	p	file:	signature:(struct pair *operands)
+sub_it	env.c	/^static int sub_it(int suc, int value)$/;"	f	file:	signature:(int suc, int value)
+sub_it	env.c	/^static int sub_it(int suc, int value);$/;"	p	file:	signature:(int suc, int value)
+substr	main.c	/^char *substr(char *src, size_t size)$/;"	f	signature:(char *src, size_t size)
+substr	main.c	/^char *substr(char *src, size_t size);$/;"	p	file:	signature:(char *src, size_t size)
+tail	exp.h	/^	struct pair *tail;$/;"	m	struct:llist	typeref:struct:llist::pair	access:public
+type	exp.h	/^	enum atomtag type;$/;"	m	struct:atom	typeref:enum:atom::atomtag	access:public
+type	exp.h	/^	enum entitytag type;$/;"	m	struct:entity	typeref:enum:entity::entitytag	access:public
+vs	session.vim	/^nnoremap <buffer> vs va)$/;"	m
+w!!	session.vim	/^cnoremap w!! w !sudo tee % >\/dev\/null$/;"	m
+word_size	main.c	/^int word_size(const char *str)$/;"	f	signature:(const char *str)
+word_size	main.c	/^int word_size(const char *str);$/;"	p	file:	signature:(const char *str)
+yS	session.vim	/^nmap yS <Plug>YSurround$/;"	m
+ySS	session.vim	/^nmap ySS <Plug>YSsurround$/;"	m
+ySs	session.vim	/^nmap ySs <Plug>YSsurround$/;"	m
+ys	session.vim	/^nmap ys <Plug>Ysurround$/;"	m
+yss	session.vim	/^nmap yss <Plug>Yssurround$/;"	m
+zo	session.vim	/^normal zo$/;"	m
+zt	session.vim	/^normal! zt$/;"	m
+{}	session.vim	/^inoremap {} {}<Left>$/;"	m
+ã	session.vim	/^imap ã :call CCommentWriter()$/;"	m
+ã	session.vim	/^map ã :call CCommentWriter()$/;"	m
+î	session.vim	/^imap î :call SearchInvalidComment(0)$/;"	m
+î	session.vim	/^map î :call SearchInvalidComment(0)$/;"	m
+ð	session.vim	/^imap ð :call SearchInvalidComment(1)$/;"	m
+ð	session.vim	/^map ð :call SearchInvalidComment(1)$/;"	m
+òc	session.vim	/^map òc :call IntroduceConstant()$/;"	m
+òd	session.vim	/^map òd :call RemoveParameter()$/;"	m
+òe	session.vim	/^map òe :call ExtractMethod()$/;"	m
+òo	session.vim	/^map òo :call ReorderParameters()$/;"	m
+òp	session.vim	/^map òp :call LocalVariableToParameter()$/;"	m
+òr	session.vim	/^map òr :call RenameVariable()$/;"	m

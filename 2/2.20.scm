@@ -1,0 +1,8 @@
+(define (same-parity x . y)
+  (define justify? (if (odd? x) odd? even?))
+  (define (filter ys)
+    (cond ((null? ys) ys)
+	  ((justify? (car ys)) (cons (car ys) (filter (cdr ys))))
+	  (else (filter (cdr ys)))))
+  (cons x (filter y)))
+(same-parity 2 3 4 5 6 7)
